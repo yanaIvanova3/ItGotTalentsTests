@@ -1,0 +1,29 @@
+body{
+	background-image: url(../img/background.jpeg);
+}
+#carousel-example-generic {
+	height: 450px;
+}
+
+
+
+.carousel-inner a{
+	font-size: 70px;
+	position: relative;
+	display: inline-block;
+	margin-top: 150px;
+	text-decoration: none;
+}
+form:first-child{
+	float:left;
+}
+label{
+	color: #CCC;
+}
+@media screen and (min-width: 800px) {
+	form:nth-child(2){
+		display:inline-block;
+		margin-left: 300px;
+		margin-top: 5px;
+	}
+}
